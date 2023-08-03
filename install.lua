@@ -1,9 +1,9 @@
--- drmon installation script
+-- CCDraconicReactorControlPanel 1.12.2 installation script
 --
 --
 
-local libURL = "https://raw.githubusercontent.com/acidjazz/drmon/master/lib/f.lua"
-local startupURL = "https://raw.githubusercontent.com/acidjazz/drmon/master/drmon.lua"
+local libURL = "https://raw.githubusercontent.com/danielrezaie/CCDraconicReactorControlPanel1.12.2/master/lib/f.lua"
+local startupURL = "https://raw.githubusercontent.com/danielrezaie/CCDraconicReactorControlPanel1.12.2/master/drmon.lua"
 local lib, startup
 local libFile, startupFile
 
@@ -23,4 +23,3 @@ startupFile = startup.readAll()
 local file2 = fs.open("startup", "w")
 file2.write(startupFile)
 file2.close()
-
