@@ -1,14 +1,9 @@
-
-![](examples/2.jpg)
-> *status*: currently stable, writing documentation
-
-
-# drmon
+# ComputerCraft Draconic Reactor Control Panel FOR 1.12.2
 monitor and failsafe automation for your draconic reactor
 
 ### what is this
 this is a computercraft LUA script that monitors everything about a draconic reactor, with a couple features to help keep it from exploding
-NB: This is for Minecraft 1.7.10. You will need to edit references within the code for any version higher to reflect any changes made to Draconic Evolution past its 1.7.10 release.
+NB: This is for Minecraft **1.12.2**.
 
 
 ### tutorial
@@ -33,8 +28,8 @@ you can find a very well made youtube tutorial on how to set this up [here](http
 * one fully setup draconic reactor with fuel
 * 1 advanced computer
 * 9 advanced monitors
-* 3 wired modems, wireless will not work
-* a bunch of network cable
+* 3 wired modems, wireless will not work yet
+* a bunch of network cables
 
 ### installation
 * your reactor output flux gate must be setup so that one side of it and one of your stabilizers touches a side of the advanced computer
@@ -47,10 +42,10 @@ you can find a very well made youtube tutorial on how to set this up [here](http
 * install this code via running the install script using these commands :
 
 ```
-> pastebin get Ls1Wg3QQ install
+> pastebin get SHc6Q9n7 install
 > install
 ```
-* modify `startup` if you wish to configure/alter any variables mentioned in the feature list, you'll find them at the top of the file
+* modify `startup` with the command 'edit startup' if you wish to configure/alter any variables mentioned in the feature list, you'll find them at the top of the file
 ```
 > startup
 ```
@@ -64,6 +59,3 @@ you can find a very well made youtube tutorial on how to set this up [here](http
 > install
 > startup
 ```
-
-### known issues
-* there is a problem with **skyfactory 2.5** and **pastebin**, see workarounds [here](https://github.com/acidjazz/drmon/issues/9#issuecomment-277910288)
