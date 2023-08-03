@@ -38,8 +38,8 @@ inputfluxgate = f.periphSearch("flux_gate")
 fluxgate = peripheral.wrap(fluxgateSide)
 reactor = peripheral.wrap(reactorSide)
 
-fluxgate.setOverrideEnabled()
-inputfluxgate.setOverrideEnabled()
+fluxgate.setOverrideEnabled(1)
+inputfluxgate.setOverrideEnabled(1)
 
 
 if monitor == null then
